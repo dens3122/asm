@@ -88,25 +88,6 @@ void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 
-/*
-**	My functions
-**	int		ft_iswhitespace(char c) : checks if char is whitespace
-**	int		ft_nbrlen(int c) : length of int
-**	int		ft_wordcount(const char *str, char del) : count words in string
-**	char	*ft_nextword(char const *s, char c) : next word in string
-**	char	*ft_strndup(const char *s1, size_t n) : man strndup
-**	void	ft_lstclr(t_list *lst) : clears linked list
-**	void	*ft_realloc(void *ptr, size_t size, size_t new_size) : man realloc
-**	char	*ft_strshift(char **str, size_t n) : delete first n chars
-**	char	*ft_strjoinch(char **str, char c) : appends char to string
-**	char	*ft_copyuntil(char *str, int c) : copys until meets char
-**	char	*ft_strchr_safe(const char *s, int c) : safe strchr
-**	char	*ft_strdup_safe(const char *s1) : safe strdup
-**	int		get_next_line(const int fd, char **line) : reading one line from fd
-**
-**	void	ft_iloveyoupeer(void) : expressing my love for peer ^_^
-*/
-
 void				swap(int *a, int *b);
 int					ft_iswhitespace(int c);
 int					ft_nbrlen(unsigned long long int nbr);
